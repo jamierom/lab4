@@ -121,3 +121,14 @@ h1, h2, h3 {
 }
 
 /* desktop layout */
+@media (min-width: 768px) {
+    .hero-grid {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .cards-gallery {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 20px; 
+    }
+    
+}
